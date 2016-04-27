@@ -1,0 +1,47 @@
+/*公共样式
+    -------------------------------------------------*/
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+img{
+    max-width: 100%;
+}
+/* 头部样式
+    --------------------------------------------------*/
+header {
+    display: block;
+    position: relative;
+    padding-top: 28px;
+    background-color: #f1f0f1;
+}
+header h1{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+}
+
+/*导航样式*/
+nav{
+    position: relative;
+    float: right;
+    padding-top: 55px;
+    text-align: center;
+}
+nav li{
+    display: inline-block;
+    font-size: 20px;
+    line-height: 22px;
+}
+nav li a{
+    padding: 0 20px;
+    color: #727171;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+nav li.active a{
+    color: #aaccaa;
+}
+/*推荐菜系
+    -------------------------------------------*/
