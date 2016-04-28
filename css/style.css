@@ -1,3 +1,14 @@
+html, body {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #292522 url(../images/bg.png) repeat center center;
+    color: #3F3F3F;
+    font: 16px/25px Arial, Helvetica, sans-serif;
+    font-family: 'Goudy Bookletter 1911',Georgia,serif;
+}
 /*公共样式
     -------------------------------------------------*/
 a{
@@ -13,7 +24,7 @@ header {
     display: block;
     position: relative;
     padding-top: 28px;
-    background-color: #f1f0f1;
+    background-color: #E4000D;
 }
 header h1{
     position: relative;
@@ -35,13 +46,42 @@ nav li{
 }
 nav li a{
     padding: 0 20px;
-    color: #727171;
+    color: #fff;
     font-weight: bold;
     display: block;
     text-align: center;
 }
-nav li.active a{
-    color: #aaccaa;
+nav li a:hover,nav li a.active{
+    color: #ebcc96;
 }
 /*推荐菜系
     -------------------------------------------*/
+.banner {
+    padding-top: 49px;
+}
+.bann-capt{
+    background-color: #E78E4E;
+    color: #fff;
+    padding-bottom: 22px;
+    text-align: center;
+}
+.bann_title {
+    margin: 0 90px;
+    padding: 40px 0 20px;
+    font-size: 30px;
+    border-bottom: dashed 1px #fff;
+    font-weight: 600;
+    text-align: center;
+}
+.box-inner a {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    line-height: 65px;
+}
+.bc1{
+    background-color: #91A148;
+}
+.bc2{
+    background-color:#E5A649 ;
+}
